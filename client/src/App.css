@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Poppins:wght@300&display=swap');
+
+
+html{
+  position: relative;
+  font-size: 100%;
+  line-height: 1.5rem;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    /* min-height:  100vh; */
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+  /* border: 1px solid lightcoral; */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Section */
+.header-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  line-height:  1rem;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  background-color: #F4FEC1;
+}
+.logo{
+  text-shadow: 2px 6px 2px rgba(0,0,0,0.2);
+}
+.logo, .nav-menu{
+  text-transform: uppercase;
+}
+.nav-menu{
+  list-style: none;
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+.list-item{
+  flex: 1 0 40%;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.logo a, .nav-menu a{
+  display: block;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  padding: 0.8rem;
+  color:#712F79;
+}
+
+.logo{
+  color: #9882AC;
+}
+
+.nav-menu a:hover{
+    background-color: #9D0AFF;
+    transform: scale(1.1);
+    color: white;
+}
+
+.nav-menu a:active{
+    transform: scale(0.9);
+}
+
+/* Homepage */
+span{
+  color: #4C4C9D;
+}
+.homepage-container{
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+.main-text{
+  position:relative;
+  font-size: 55px;
+}
+
+.homepage{
+  width: 50%;
+  flex-direction: column;
+ 
+}
+
+
+.homepage-image{
+  position: inherit;
+  width: 50%;
+  flex-direction: column;
+}
+
+/* Skills Section */
+.skills-section{
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+  justify-content:center;
+  background-color: #FFE4F3;
+  padding:10px;
+  color: #595758;
+}
+.skills-section h1{
+  display: flex;
+  vertical-align: top;
+  flex-direction: column;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.skill-card-wrapper{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items:center;
+  margin: 10px;
+}
+
+.skill-cards{
+    position: inherit;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 40ch;
+    height: 50vh;
+    margin: 10px;
+    padding:  30px;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.0px );
+    -webkit-backdrop-filter: blur( 3.0px );
+    border-radius: 10px;
+    border: 1px double rgba( 255, 255, 255, 0.18 );
+
+}
+.skill-cards h3{
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.icons{
+  justify-content: center;
+  align-items:center;
+  display: flex;
+  flex-flow: wrap;
+  flex-shrink: inherit;
+}
+.icons img{
+  margin: 10px;
+}
+
+/* testimonials section */
+.carousel-container{
+  display: flex;
+  min-height: 70vh;
+  justify-content:center;
+  padding:10px;
+  color: #595758;
+}
+
+.parallax{
+  /* Full height */
+  height: 45vh;
+  /* Create the parallax scrolling effect */
+  background-image: url("./images/programming-bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+}
+
+/* Footer */
+
+.footer{
+  background-color:#FFE8D1;   
+}
+.contact-us-container{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow:  1px 1px 1px 1px black;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+
+}
+.social-media img{
+  object-fit: cover;
+}
+
+textarea {
+  font-size: .8rem;
+  letter-spacing: 1px;
+}
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+.submit-btn {
+  font-weight: 600;
+  padding: 1rem 3rem;
+  border-radius:  .5rem;
+  color: #fff;
+  background-color: #2083f8;
+
+}
+
+
+@media screen and (min-width:10px){
+  .header-container{
+    line-height: 0.5rem;
+}
+.nav-menu{
+  width:100%;
+} 
+.list-item{
+    flex: 1 0 10%;
+}
+  .homepage-container{
+
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+    align-content:center;
+    align-items: center;
+    font-size: 8px;
+  }
+
+  .homepage-image{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    width: 30%;
+    height: 30%;
+  }
+
+  .main-text{
+    font-size: 20px;
+  }
+  .logo{
+    font-size: 10px;
+  }
+  .nav-menu{
+    font-size: 8px;
+  } 
+}
+
+
+@media screen and (min-width:600px){
+      .header-container{
+          line-height: 1.5rem;
+      }
+      .nav-menu{
+        width:100%;
+      } 
+      .list-item{
+          flex: 1 0 10%;
+      }
+      .homepage-container{
+        flex-direction: column;
+        justify-content:center;
+        align-content:center;
+        align-items: center;
+        font-size: 10px;
+      }
+      .homepage-image{
+        text-align: center;
+        justify-content:center;
+        align-content:center;
+        width: 40%;
+        height: 40%;
+      }
+      .main-text{
+        font-size: 20px;
+      }
+      .logo{
+        font-size: 20px;
+      }
+      .nav-menu{
+        font-size: 15px;
+      } 
+    }
+@media screen and (min-width:900px){
+  .header-container{
+      justify-content: space-between;
+      padding: 0.5rem 0;
+  }
+  .nav-menu{
+    width:auto;
+  } 
+  .logo{
+      margin: 0 0 0 0.3rem;
+ 
+    }
+    .main-text{
+      font-size: 4.5rem;
+      line-height: 4rem;
+      }
+    .homepage-container{
+      margin: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      
+    }
+    .homepage{
+      text-align: left;
+      width: 50%;
+      flex-direction: column;
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+    .homepage-image img{
+        text-align: center;
+        justify-content:center;
+        align-content:center;
+        margin-left: 10rem;
+        width: 300px;
+        height: 400px;
+    } 
+
+
+  }
