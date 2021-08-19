@@ -31,8 +31,7 @@ body{
   align-items:center;
   line-height:  1rem;
   overflow: hidden;
-  margin-bottom: 0.5rem;
-  background-color: #F4FEC1;
+  background-color: #484e52;
 }
 .logo{
   text-shadow: 2px 6px 2px rgba(0,0,0,0.2);
@@ -62,15 +61,15 @@ body{
   text-decoration: none;
   letter-spacing: 0.2rem;
   padding: 0.8rem;
-  color:#712F79;
+  color:#b9c1b9;
 }
 
 .logo{
-  color: #9882AC;
+  color: #afb9c5;
 }
 
 .nav-menu a:hover{
-    background-color: #9D0AFF;
+    background-color: #afb9c5;
     transform: scale(1.1);
     color: white;
 }
@@ -81,12 +80,21 @@ body{
 
 /* Homepage */
 span{
-  color: #4C4C9D;
+  color: #fff;
 }
 .homepage-container{
-  min-height: 70vh;
+  min-height: 65vh;
+  padding: 5rem;
   display: flex;
   flex-direction: row;
+  background-image: url("./images/bg-titanium.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  color: #e3cdb3;
+
 }
 .main-text{
   position:relative;
@@ -96,30 +104,57 @@ span{
 .homepage{
   width: 50%;
   flex-direction: column;
- 
 }
 
 
-.homepage-image{
-  position: inherit;
-  width: 50%;
-  flex-direction: column;
+.homepage-image img{
+  border-radius: 90%;
+  object-fit: cover;
+  border: solid 5px black;
+  box-shadow: 0 0 10px;
+}
+
+.cv-btn {
+	box-shadow:inset -24px 26px 26px -25px #41474a;
+	background-color:#bebab4;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:18px;
+  font-family: 'Poppins', sans-serif;
+	font-weight:bold;
+	padding:12px 54px;
+	text-decoration:none;
+}
+.cv-btn:hover {
+	background-color:#f7f7f6;
+}
+.cv-btn:active {
+	position:relative;
+	top:1px;
 }
 
 /* Skills Section */
 .skills-section{
   display: flex;
-  align-items: center;
-  min-height: 80vh;
+  min-height: 50vh;
   justify-content:center;
-  background-color: #FFE4F3;
+  background-image: url("./images/bg-gray.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
   padding:10px;
-  color: #595758;
+  color: #000000;
 }
 .skills-section h1{
   display: flex;
   vertical-align: top;
   flex-direction: column;
+  justify-content: space-around;
   font-size: 30px;
   text-align: center;
 
@@ -128,22 +163,22 @@ span{
 .skill-card-wrapper{
   display: flex;
   flex-flow: wrap;
-  justify-content: center;
+  justify-content:  center;
+  flex-direction: row;
   align-items:center;
   margin: 10px;
 }
 
 .skill-cards{
-    position: inherit;
     display: flex;
     align-items:center;
-    justify-content: space-between;
-    width: 40ch;
+    justify-content:  space-evenly;
     height: 50vh;
+    width: 50ch;
     margin: 10px;
     padding:  30px;
     flex-direction: column;
-    background: rgba( 255, 255, 255, 0.05 );
+    background: #aebcc004;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 3.0px );
     -webkit-backdrop-filter: blur( 3.0px );
@@ -171,17 +206,26 @@ span{
 /* testimonials section */
 .carousel-container{
   display: flex;
-  min-height: 70vh;
+  flex-direction: column;
+  min-height: 50vh;
   justify-content:center;
+  align-items: center;
   padding:10px;
-  color: #595758;
+  color: #e3cdb3;
+  background-color: #484e52;
 }
-
+.quotes-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 40px auto;
+max-width: 700px;
+}
 .parallax{
   /* Full height */
   height: 45vh;
   /* Create the parallax scrolling effect */
-  background-image: url("./images/programming-bg.jpg");
+  background-image: url("./images/alvin3.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -202,11 +246,14 @@ span{
   flex-direction: column;
   padding: 20px;
   box-shadow:  1px 1px 1px 1px black;
+  background: #dfe8e8;
+  color: #000000;
 }
 
 .social-media{
   display: flex;
   flex-direction: row;
+  object-fit: cover;
 
 }
 .social-media img{
@@ -224,21 +271,99 @@ textarea {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px #999;
+
 }
 
 .submit-btn {
-  font-weight: 600;
+  font-weight: 500;
   padding: 1rem 3rem;
   border-radius:  .5rem;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
-  background-color: #2083f8;
+  background-color: #46413b;
+}
+
+.quote-font{
+  text-align: center;
+  margin-bottom: 20px;
+  color:#e3cdb3;
+  font-style: italic;
+}
+
+.client-font{
+  color:#D2D2D2;
+}
+
+.carousel-btn{
+    display: flex;
+}
+
+.carousel-btn span{
+    height: 20px;
+    width: 20px;
+    margin:  0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.carousel-btn span::before {
+background-color: #fff;
+content: "";
+height: 6px;
+width: 6px;
+border-radius: 50%;
+transition: background-color 0.3s ease;
 
 }
 
+.carousel-btn span:hover::before{
+  background-color: #45454d;
+}
 
-@media screen and (min-width:10px){
+.carousel-btn span[data-quote = "${active}"]::before{
+  background-color: #45454d;
+}
+
+.project-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  padding: 5rem;
+}
+.project-wrapper{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items:center;
+  margin: 10px;
+}
+.projects-card{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 50vh;
+  width: 80ch;
+  margin: 10px;
+  padding:  5rem;
+  flex-direction: column;
+  background: #aebcc004;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.0px );
+  -webkit-backdrop-filter: blur( 3.0px );
+  border-radius: 10px;
+  border: 1px double rgba( 255, 255, 255, 0.18 );
+}
+
+.demo{
+  border: solid 3px  #45454d;
+}
+
+@media screen and (min-width:40px){
   .header-container{
-    line-height: 0.5rem;
+    line-height: 1rem;
 }
 .nav-menu{
   width:100%;
@@ -253,20 +378,21 @@ textarea {
     justify-content:center;
     align-content:center;
     align-items: center;
-    font-size: 8px;
-  }
-
-  .homepage-image{
+    font-size: 10px;
+    }
+  .homepage-image {
+    margin-top: 20px;
     text-align: center;
     display: flex;
     justify-content:center;
     align-content:center;
-    width: 30%;
-    height: 30%;
   }
-
+  .profile{
+      width: 90ch;
+      height: 75vh;
+  }
   .main-text{
-    font-size: 20px;
+    font-size: 30px;
   }
   .logo{
     font-size: 10px;
@@ -310,7 +436,7 @@ textarea {
       .nav-menu{
         font-size: 15px;
       } 
-    }
+      }
 @media screen and (min-width:900px){
   .header-container{
       justify-content: space-between;
@@ -328,7 +454,6 @@ textarea {
       line-height: 4rem;
       }
     .homepage-container{
-      margin: 1rem;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
@@ -339,15 +464,16 @@ textarea {
       width: 50%;
       flex-direction: column;
       font-size: 2rem;
-      line-height: 2rem;
+      line-height: 3rem;
     }
     .homepage-image img{
+      position:relative;
         text-align: center;
         justify-content:center;
         align-content:center;
         margin-left: 10rem;
-        width: 300px;
-        height: 400px;
+        width: 60ch;
+        height:  30vh;
     } 
 
 
