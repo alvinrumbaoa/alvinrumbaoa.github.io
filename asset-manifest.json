@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/alvinrumbaoa.github.io/client/static/css/main.6963955d.chunk.css",
-    "main.js": "/alvinrumbaoa.github.io/client/static/js/main.fb9c61a0.chunk.js",
-    "main.js.map": "/alvinrumbaoa.github.io/client/static/js/main.fb9c61a0.chunk.js.map",
+    "main.css": "/alvinrumbaoa.github.io/client/static/css/main.2280fede.chunk.css",
+    "main.js": "/alvinrumbaoa.github.io/client/static/js/main.41d540e3.chunk.js",
+    "main.js.map": "/alvinrumbaoa.github.io/client/static/js/main.41d540e3.chunk.js.map",
     "runtime-main.js": "/alvinrumbaoa.github.io/client/static/js/runtime-main.a8a216ac.js",
     "runtime-main.js.map": "/alvinrumbaoa.github.io/client/static/js/runtime-main.a8a216ac.js.map",
-    "static/js/2.ad1f0c20.chunk.js": "/alvinrumbaoa.github.io/client/static/js/2.ad1f0c20.chunk.js",
-    "static/js/2.ad1f0c20.chunk.js.map": "/alvinrumbaoa.github.io/client/static/js/2.ad1f0c20.chunk.js.map",
+    "static/js/2.7954d5c4.chunk.js": "/alvinrumbaoa.github.io/client/static/js/2.7954d5c4.chunk.js",
+    "static/js/2.7954d5c4.chunk.js.map": "/alvinrumbaoa.github.io/client/static/js/2.7954d5c4.chunk.js.map",
     "static/js/3.77c9cbb6.chunk.js": "/alvinrumbaoa.github.io/client/static/js/3.77c9cbb6.chunk.js",
     "static/js/3.77c9cbb6.chunk.js.map": "/alvinrumbaoa.github.io/client/static/js/3.77c9cbb6.chunk.js.map",
     "index.html": "/alvinrumbaoa.github.io/client/index.html",
-    "static/css/main.6963955d.chunk.css.map": "/alvinrumbaoa.github.io/client/static/css/main.6963955d.chunk.css.map",
-    "static/js/2.ad1f0c20.chunk.js.LICENSE.txt": "/alvinrumbaoa.github.io/client/static/js/2.ad1f0c20.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/alvinrumbaoa.github.io/client/static/media/programming-bg.35084f22.jpg"
+    "static/css/main.2280fede.chunk.css.map": "/alvinrumbaoa.github.io/client/static/css/main.2280fede.chunk.css.map",
+    "static/js/2.7954d5c4.chunk.js.LICENSE.txt": "/alvinrumbaoa.github.io/client/static/js/2.7954d5c4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/alvinrumbaoa.github.io/client/static/media/bg-titanium.0c545ca2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a8a216ac.js",
-    "static/js/2.ad1f0c20.chunk.js",
-    "static/css/main.6963955d.chunk.css",
-    "static/js/main.fb9c61a0.chunk.js"
+    "static/js/2.7954d5c4.chunk.js",
+    "static/css/main.2280fede.chunk.css",
+    "static/js/main.41d540e3.chunk.js"
   ]
 }
