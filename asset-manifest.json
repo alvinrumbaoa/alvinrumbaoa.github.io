@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/alvinrumbaoa.github.io/static/css/main.2163f932.chunk.css",
-    "main.js": "/alvinrumbaoa.github.io/static/js/main.41d540e3.chunk.js",
-    "main.js.map": "/alvinrumbaoa.github.io/static/js/main.41d540e3.chunk.js.map",
-    "runtime-main.js": "/alvinrumbaoa.github.io/static/js/runtime-main.5543e3b9.js",
-    "runtime-main.js.map": "/alvinrumbaoa.github.io/static/js/runtime-main.5543e3b9.js.map",
-    "static/js/2.7954d5c4.chunk.js": "/alvinrumbaoa.github.io/static/js/2.7954d5c4.chunk.js",
-    "static/js/2.7954d5c4.chunk.js.map": "/alvinrumbaoa.github.io/static/js/2.7954d5c4.chunk.js.map",
-    "static/js/3.77c9cbb6.chunk.js": "/alvinrumbaoa.github.io/static/js/3.77c9cbb6.chunk.js",
-    "static/js/3.77c9cbb6.chunk.js.map": "/alvinrumbaoa.github.io/static/js/3.77c9cbb6.chunk.js.map",
-    "index.html": "/alvinrumbaoa.github.io/index.html",
-    "static/css/main.2163f932.chunk.css.map": "/alvinrumbaoa.github.io/static/css/main.2163f932.chunk.css.map",
-    "static/js/2.7954d5c4.chunk.js.LICENSE.txt": "/alvinrumbaoa.github.io/static/js/2.7954d5c4.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/alvinrumbaoa.github.io/static/media/bg-titanium.0c545ca2.jpg"
+    "main.css": "/client/static/css/main.bfdfe2e5.chunk.css",
+    "main.js": "/client/static/js/main.41d540e3.chunk.js",
+    "main.js.map": "/client/static/js/main.41d540e3.chunk.js.map",
+    "runtime-main.js": "/client/static/js/runtime-main.a1f3d460.js",
+    "runtime-main.js.map": "/client/static/js/runtime-main.a1f3d460.js.map",
+    "static/js/2.7954d5c4.chunk.js": "/client/static/js/2.7954d5c4.chunk.js",
+    "static/js/2.7954d5c4.chunk.js.map": "/client/static/js/2.7954d5c4.chunk.js.map",
+    "static/js/3.77c9cbb6.chunk.js": "/client/static/js/3.77c9cbb6.chunk.js",
+    "static/js/3.77c9cbb6.chunk.js.map": "/client/static/js/3.77c9cbb6.chunk.js.map",
+    "index.html": "/client/index.html",
+    "static/css/main.bfdfe2e5.chunk.css.map": "/client/static/css/main.bfdfe2e5.chunk.css.map",
+    "static/js/2.7954d5c4.chunk.js.LICENSE.txt": "/client/static/js/2.7954d5c4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/client/static/media/bg-titanium.0c545ca2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5543e3b9.js",
+    "static/js/runtime-main.a1f3d460.js",
     "static/js/2.7954d5c4.chunk.js",
-    "static/css/main.2163f932.chunk.css",
+    "static/css/main.bfdfe2e5.chunk.css",
     "static/js/main.41d540e3.chunk.js"
   ]
 }
