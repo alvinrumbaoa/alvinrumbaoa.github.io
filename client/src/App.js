@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Homepage from './components/Homepage';
 import Skills from './components/Skills';
 import './App.css';
@@ -12,7 +12,11 @@ import createHashSource from 'hash-source'
 
 let source = createHashSource();
 let history = createHistory(source)
+
+useEffect(() => {
 document.title = "Alvin Rumbaoa | Full Stack Web Developer";
+}, [])
+  
 function App() {
   return (
     <LocationProvider history={history}>
