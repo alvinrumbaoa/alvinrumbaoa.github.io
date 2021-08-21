@@ -13,11 +13,14 @@ import createHashSource from 'hash-source'
 let source = createHashSource();
 let history = createHistory(source)
 
-useEffect(() => {
-document.title = "Alvin Rumbaoa | Full Stack Web Developer";
-}, [])
+
   
 function App() {
+
+
+  useEffect(() => {
+    document.title = "Alvin Rumbaoa | Full Stack Web Developer";
+    }, [])
   return (
     <LocationProvider history={history}>
     <div className="App">
