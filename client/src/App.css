@@ -248,7 +248,12 @@ max-width: 700px;
   flex-direction: column;
   padding: 20px;
   box-shadow:  1px 1px 1px 1px black;
-  background: #dfe8e8;
+  background-image: url("./images/cyan-bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
   color: #000000;
 }
 
