@@ -83,27 +83,27 @@ const Footer = () =>{
                     <div className="social-media">
                                 <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.9 }} >
                                         <a href="https://www.facebook.com/xenofy/">
-                                            <img src="/images/facebook.png" alt="" height="100" width="100"/>
+                                            <img src="images/facebook.png" alt="" height="100" width="100"/>
                                         </a>
                                 </motion.div>
                                 <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.9 }} >
                                 <a href="https://github.com/xenodochy23">
-                                <img src="/images/github (2).png" alt="" height="100" width="100"/>
+                                <img src="images/github (2).png" alt="" height="100" width="100"/>
                                 </a>
                                 </motion.div>                            
                                 <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.9 }} >
                                         <a href="https://www.instagram.com/iamachipmunks/">
-                                            <img src="/images/instagram.png" alt="" height="100" width="100"/>
+                                            <img src="images/instagram.png" alt="" height="100" width="100"/>
                                         </a>
                                 </motion.div>
                                 <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.9 }} >
                                     <a href="https://www.twitter.com">
-                                            <img src="/images/twitter (1).png" alt="" height="100" width="100"/>
+                                            <img src="images/twitter (1).png" alt="" height="100" width="100"/>
                                     </a>
                                 </motion.div>
                                 <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.9 }} >
                                     <a href="https://www.twitter.com">
-                                            <img src="/images/linkedin (2).png" alt="" height="100" width="100"/>
+                                            <img src="images/linkedin (2).png" alt="" height="100" width="100"/>
                                     </a>
                                 </motion.div>
                     </div>

@@ -17,7 +17,7 @@ const Homepage = (props) => {
                         <button className="cv-btn">Check out my CV!</button>
                     </div>   
                     <div className ="homepage-image">
-                                <img  src="/images/alvin-bg (1).png" alt="avatar"/>
+                                <img  src="images/alvin-bg (1).png" alt="avatar"/>
                     </div>
             </div>          
             <Skills/>
