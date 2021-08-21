@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Poppins:wght@300&display=swap');
 
 
+
 html{
   position: relative;
   font-size: 100%;
@@ -9,7 +10,7 @@ html{
   font-family: 'Poppins', sans-serif;
 }
 
-body{
+body, .container{
     margin: 0 auto;
     padding: 0;
     /* min-height:  100vh; */
@@ -198,6 +199,7 @@ span{
   display: flex;
   flex-flow: wrap;
   flex-shrink: inherit;
+
 }
 .icons img{
   margin: 10px;
@@ -386,6 +388,7 @@ transition: background-color 0.3s ease;
     display: flex;
     justify-content:center;
     align-content:center;
+    filter: drop-shadow(30px 5px 0px #000);
   }
   .profile{
       width: 90ch;
@@ -474,7 +477,9 @@ transition: background-color 0.3s ease;
         margin-left: 10rem;
         width: 60ch;
         height:  30vh;
+        
     } 
 
 
   }
+
