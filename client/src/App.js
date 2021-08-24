@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import Homepage from './components/Homepage';
-import { MdClose } from "react-icons/md"
-import { FiMenu } from "react-icons/fi"
 import './App.css';
 import Header from './components/Header';
 import {
@@ -9,7 +7,8 @@ import {
   LocationProvider,
   Router
 } from "@reach/router";
-import createHashSource from 'hash-source'
+import createHashSource from 'hash-source';
+import About from './components/About';
 
 
 
@@ -30,6 +29,7 @@ const closeMenu = () => {
     <div className="App">
       <Header  to="/home" activeClassName="active-link" onClick={() => closeMenu()} exact/>
     <Homepage path="/"/>
+    <About path="/about"/>
     {/* <Skills path="/skills"/> */}
 
     </div>
