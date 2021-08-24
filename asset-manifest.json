@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/alvinrumbaoa.github.io/static/css/main.12d53e22.chunk.css",
+    "main.css": "/alvinrumbaoa.github.io/static/css/main.640bef8c.chunk.css",
     "main.js": "/alvinrumbaoa.github.io/static/js/main.997f2c07.chunk.js",
     "main.js.map": "/alvinrumbaoa.github.io/static/js/main.997f2c07.chunk.js.map",
     "runtime-main.js": "/alvinrumbaoa.github.io/static/js/runtime-main.3613bb69.js",
@@ -10,14 +10,14 @@
     "static/js/3.c3987cf0.chunk.js": "/alvinrumbaoa.github.io/static/js/3.c3987cf0.chunk.js",
     "static/js/3.c3987cf0.chunk.js.map": "/alvinrumbaoa.github.io/static/js/3.c3987cf0.chunk.js.map",
     "index.html": "/alvinrumbaoa.github.io/index.html",
-    "static/css/main.12d53e22.chunk.css.map": "/alvinrumbaoa.github.io/static/css/main.12d53e22.chunk.css.map",
+    "static/css/main.640bef8c.chunk.css.map": "/alvinrumbaoa.github.io/static/css/main.640bef8c.chunk.css.map",
     "static/js/2.04f36611.chunk.js.LICENSE.txt": "/alvinrumbaoa.github.io/static/js/2.04f36611.chunk.js.LICENSE.txt",
     "static/media/App.css": "/alvinrumbaoa.github.io/static/media/cyan-bg.af64b91c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3613bb69.js",
     "static/js/2.04f36611.chunk.js",
-    "static/css/main.12d53e22.chunk.css",
+    "static/css/main.640bef8c.chunk.css",
     "static/js/main.997f2c07.chunk.js"
   ]
 }
