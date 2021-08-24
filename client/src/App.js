@@ -29,7 +29,10 @@ const closeMenu = () => {
     <div className="App">
       <Header  to="/home" activeClassName="active-link" onClick={() => closeMenu()} exact/>
     <Homepage path="/"/>
-    <About path="/about"/>
+    <Router>
+          <About path="/about"/>
+    </Router>
+  
     {/* <Skills path="/skills"/> */}
 
     </div>
