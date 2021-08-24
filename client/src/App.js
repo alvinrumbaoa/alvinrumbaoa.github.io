@@ -1,6 +1,7 @@
-import React, {useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import Homepage from './components/Homepage';
-import Skills from './components/Skills';
+import { MdClose } from "react-icons/md"
+import { FiMenu } from "react-icons/fi"
 import './App.css';
 import Header from './components/Header';
 import {
@@ -10,13 +11,16 @@ import {
 } from "@reach/router";
 import createHashSource from 'hash-source'
 
-let source = createHashSource();
-let history = createHistory(source)
 
 
-  
 function App() {
 
+  const [navbarOpen, setNavbarOpen] = useState(false);
+let source = createHashSource();
+let history = createHistory(source)
+const closeMenu = () => {
+  setNavbarOpen(false)
+}
 
   useEffect(() => {
     document.title = "Alvin Rumbaoa | Full Stack Web Developer";
@@ -24,7 +28,7 @@ function App() {
   return (
     <LocationProvider history={history}>
     <div className="App">
-      <Header/>
+      <Header  to="/home" activeClassName="active-link" onClick={() => closeMenu()} exact/>
     <Homepage path="/"/>
     {/* <Skills path="/skills"/> */}
 
