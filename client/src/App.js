@@ -20,10 +20,10 @@ function App() {
     <div className="App">
       <Header/>
       <Switch> 
-          <Route path="/image">
+          <Route path="/alvinrumbaoa.github.io/image">
             <ResumeViewer />
           </Route>
-          <Route path ="/">
+          <Route path ="/alvinrumbaoa.github.io/">
             <Homepage/>
           </Route>
       </Switch>

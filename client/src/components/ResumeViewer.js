@@ -10,11 +10,11 @@ const ResumeViewer = ( ) =>{
 
     let images = [
         {
-            url:"/images/resume.png",
+            url:"../public/images/resume.png",
             title:"Resume"
         },
         {
-            url:"/images/certificate.png",
+            url:"/../public/images/certificate.png",
             title:"Certificate"
         }
     ]

@@ -14,7 +14,7 @@ const Homepage = () => {
                     <div className ="homepage">
                         <h1 className="main-text">Hello! I'm <span className="my-name">Alvin Rumbaoa</span></h1>
                         <h2>Freelance Web Designer and Full Stack Web Developer based on Orange County, California</h2>
-                        <Link to="/image">
+                        <Link to="/alvinrumbaoa.github.io/image">
                             <button className="lightbox-btn">
                                     Check out my CV
                             </button>
