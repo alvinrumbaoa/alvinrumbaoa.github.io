@@ -4,6 +4,7 @@ import Testimonials from './Testimonials';
 import Projects from './Projects';  
 import Footer from './Footer'
 import {Link} from '@reach/router';
+import About from './About';
 
 const Homepage = (props) => {
 
@@ -18,8 +19,9 @@ const Homepage = (props) => {
                     <div className ="homepage-image">
                                 <img  src="images/alvin-bg (1).png" alt="avatar"/>
                     </div>
-            </div>          
+            </div>         
             <Skills/>
+            <About/>
             <Testimonials/>
             <Projects/>
             <Footer/>

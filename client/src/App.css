@@ -346,7 +346,7 @@ transition: background-color 0.3s ease;
   border: solid 3px  #45454d;
 }
 
-@media screen and (min-width:40px){
+@media screen and (min-width:100px){
 
   .header-container{
     line-height: 1rem;
@@ -398,7 +398,14 @@ transition: background-color 0.3s ease;
     justify-content:center;
     align-content:center;
     filter: drop-shadow(30px 5px 0px #000);
+   
   }
+
+  .homepage-image img{
+    width: 20%;
+    height: 20%;
+  }
+
   .profile{
       width: 90ch;
       height: 75vh;

@@ -27,14 +27,12 @@ const closeMenu = () => {
   return (
     <LocationProvider history={history}>
     <div className="App">
-      <Header  to="/home" activeClassName="active-link" onClick={() => closeMenu()} exact/>
+      
+    <Header  to="/home" activeClassName="active-link" onClick={() => closeMenu()} exact/>
     <Homepage path="/"/>
-    <Router>
-          <About path="/about"/>
-    </Router>
-  
-    {/* <Skills path="/skills"/> */}
 
+       
+  
     </div>
     </LocationProvider>
   );

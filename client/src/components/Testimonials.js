@@ -9,6 +9,10 @@ const Testimonials = (props) => {
                     <Quotes/>
             </div>
             <div className="parallax">
+                
+            </div>
+            <div className="parallax">
+                
             </div>
         </div>
     )
