@@ -17,17 +17,17 @@ const Header = (props) => {
             <div className="menu-bar">
             <button onClick={handleToggle}> {navbarOpen ? ( <MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />
             ) : (<FiMenu style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />
-            )}              
+            )}     
+            </button>           
             <ul className={navbarOpen? "nav-menu" : "hidebar" }>
                     <li className="list-item"><a href="#">Home</a></li>
                     <li className="list-item"><a href="#">About</a></li>
                     <li className="list-item"><a href="#">Works</a></li>
                     <li className="list-item"><a href="#">Blog</a></li>
-                </ul>       
-                 
-                </button>  
+            </ul>       
+                
                 </div>
-                  <ul className="nav-menu2">
+                <ul className="nav-menu2">
                     <li className="list-item"><a href="#">Home</a></li>
                     <li className="list-item"><Link to="/about">About</Link></li>
                     <li className="list-item"><a href="#">Works</a></li>
