@@ -8,17 +8,17 @@ const ResumeViewer = ( ) =>{
 
     let images = [
         {
-            url:"documents/resume.png",
+            url:"image/resume.png",
             title:"Resume"
         },
         {
-            url:"documents/certificate.png",
+            url:"image/certificate.png",
             title:"Certificate"
         }
     ]
 
     const onCloseHandler = () =>{
-        navigate("/");
+      return <a href="https://xenodochy23.github.io/alvinrumbaoa.github.io/#/"/>;
     }   
     return(
         <div className="viewer-container">
