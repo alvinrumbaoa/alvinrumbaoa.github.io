@@ -3,8 +3,7 @@ import Skills from './Skills';
 import Testimonials from './Testimonials';
 import Projects from './Projects';  
 import Footer from './Footer'
-import {Link} from '@reach/router';
-
+import ResumeViewer from './ResumeViewer';
 import About from './About';
 
 const Homepage = () => {
@@ -16,7 +15,7 @@ const Homepage = () => {
                         <h1 className="main-text">Hello! I'm <span className="my-name">Alvin Rumbaoa</span></h1>
                         <h2>Freelance Web Designer and Full Stack Web Developer based on Orange County, California</h2>
                         <button className="lightbox-btn">
-                            <Link to="/image">See My CV</Link>
+                                <ResumeViewer/>
                         </button>
                         <p></p>
                     </div>   

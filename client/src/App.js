@@ -3,18 +3,12 @@ import Homepage from './components/Homepage';
 import './App.css';
 import Header from './components/Header';
 import ResumeViewer from './components/ResumeViewer';
-import {
-  createHistory,
-  LocationProvider,
-  Router
-} from "@reach/router";
-import createHashSource from 'hash-source';
+
 
 function App() {
 
-  const [navbarOpen, setNavbarOpen] = useState(false);
-let source = createHashSource();
-let history = createHistory(source)
+  const [setNavbarOpen] = useState(false);
+
 const closeMenu = () => {
   setNavbarOpen(false)
 }
@@ -25,14 +19,9 @@ const closeMenu = () => {
   return (
     <LocationProvider history={history}>
     <div className="App">
-      
-    <Header  to="/" activeClassName="active-link" onClick={() => closeMenu()} exact/>
-
-    <Router>
-      <Homepage path="/"/>
+      <Header  to="/home" activeClassName="active-link" onClick={() => closeMenu()} exact/>
+      <Homepage path="/home"/>
       <ResumeViewer path="/image"/>
-    </Router>
-  
     </div>
     </LocationProvider>
   );
