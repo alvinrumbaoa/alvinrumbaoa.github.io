@@ -11,9 +11,7 @@ const Testimonials = (props) => {
             <div className="parallax">
                 
             </div>
-            <div className="parallax">
-                
-            </div>
+         
         </div>
     )
 }
