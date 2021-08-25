@@ -17,13 +17,12 @@ const closeMenu = () => {
     document.title = "Alvin Rumbaoa | Full Stack Web Developer";
     }, [])
   return (
-    <LocationProvider history={history}>
+  
     <div className="App">
       <Header  to="/home" activeClassName="active-link" onClick={() => closeMenu()} exact/>
       <Homepage path="/home"/>
       <ResumeViewer path="/image"/>
     </div>
-    </LocationProvider>
   );
 }
 
