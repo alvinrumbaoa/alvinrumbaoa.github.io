@@ -1,7 +1,7 @@
 import React from 'react';
 import Lightbox from "react-awesome-lightbox";
 import "react-awesome-lightbox/build/style.css";
-import {NavLink} from 'react-router-dom';
+import {Redirect} from 'react-router-dom';
 import { useHistory } from 'react-router';
 
 const ResumeViewer = ( ) =>{
@@ -20,7 +20,7 @@ const ResumeViewer = ( ) =>{
     ]
 
     const onCloseHandler = () =>{
-        <NavLink to="/alvinrumbaoa.github.io/"/>
+        <Redirect to="/alvinrumbaoa.github.io/"/>
     }   
     return(
         <div className="viewer-container">
