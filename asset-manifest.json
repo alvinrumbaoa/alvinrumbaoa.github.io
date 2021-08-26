@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/alvinrumbaoa.github.io/static/css/main.99ff6fd2.chunk.css",
-    "main.js": "/alvinrumbaoa.github.io/static/js/main.ad924ee0.chunk.js",
-    "main.js.map": "/alvinrumbaoa.github.io/static/js/main.ad924ee0.chunk.js.map",
+    "main.css": "/alvinrumbaoa.github.io/static/css/main.c715b698.chunk.css",
+    "main.js": "/alvinrumbaoa.github.io/static/js/main.e2e916e1.chunk.js",
+    "main.js.map": "/alvinrumbaoa.github.io/static/js/main.e2e916e1.chunk.js.map",
     "runtime-main.js": "/alvinrumbaoa.github.io/static/js/runtime-main.a7fcb528.js",
     "runtime-main.js.map": "/alvinrumbaoa.github.io/static/js/runtime-main.a7fcb528.js.map",
     "static/css/2.07e018fc.chunk.css": "/alvinrumbaoa.github.io/static/css/2.07e018fc.chunk.css",
-    "static/js/2.d501997e.chunk.js": "/alvinrumbaoa.github.io/static/js/2.d501997e.chunk.js",
-    "static/js/2.d501997e.chunk.js.map": "/alvinrumbaoa.github.io/static/js/2.d501997e.chunk.js.map",
+    "static/js/2.4b4c9b44.chunk.js": "/alvinrumbaoa.github.io/static/js/2.4b4c9b44.chunk.js",
+    "static/js/2.4b4c9b44.chunk.js.map": "/alvinrumbaoa.github.io/static/js/2.4b4c9b44.chunk.js.map",
     "static/js/3.2fdf1081.chunk.js": "/alvinrumbaoa.github.io/static/js/3.2fdf1081.chunk.js",
     "static/js/3.2fdf1081.chunk.js.map": "/alvinrumbaoa.github.io/static/js/3.2fdf1081.chunk.js.map",
     "index.html": "/alvinrumbaoa.github.io/index.html",
     "static/css/2.07e018fc.chunk.css.map": "/alvinrumbaoa.github.io/static/css/2.07e018fc.chunk.css.map",
-    "static/css/main.99ff6fd2.chunk.css.map": "/alvinrumbaoa.github.io/static/css/main.99ff6fd2.chunk.css.map",
-    "static/js/2.d501997e.chunk.js.LICENSE.txt": "/alvinrumbaoa.github.io/static/js/2.d501997e.chunk.js.LICENSE.txt",
+    "static/css/main.c715b698.chunk.css.map": "/alvinrumbaoa.github.io/static/css/main.c715b698.chunk.css.map",
+    "static/js/2.4b4c9b44.chunk.js.LICENSE.txt": "/alvinrumbaoa.github.io/static/js/2.4b4c9b44.chunk.js.LICENSE.txt",
     "static/media/App.css": "/alvinrumbaoa.github.io/static/media/cyan-bg.af64b91c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a7fcb528.js",
     "static/css/2.07e018fc.chunk.css",
-    "static/js/2.d501997e.chunk.js",
-    "static/css/main.99ff6fd2.chunk.css",
-    "static/js/main.ad924ee0.chunk.js"
+    "static/js/2.4b4c9b44.chunk.js",
+    "static/css/main.c715b698.chunk.css",
+    "static/js/main.e2e916e1.chunk.js"
   ]
 }
