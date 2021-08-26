@@ -20,7 +20,7 @@ const ResumeViewer = ( ) =>{
     ]
 
     const onCloseHandler = () =>{
-        <Link to="/" />
+        <Link to="/alvinrumbaoa.github.io/" />
     }   
     return(
         <div className="viewer-container">
