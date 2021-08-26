@@ -346,6 +346,34 @@ transition: background-color 0.3s ease;
   border: solid 3px  #45454d;
 }
 
+
+/* About Page */
+
+
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 40vh;
+  justify-content:center;
+  align-items: flex-start;
+  box-shadow:  1px 1px 1px 1px black;
+  background-image: url("./images/alvin2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  color: #fff;
+}
+
+
+
+
+
+
 @media screen and (min-width:10px){
 
   .header-container{
@@ -471,10 +499,11 @@ transition: background-color 0.3s ease;
       .logo{
         font-size: 20px;
       }
+  }
 
-      
-   
-    }
+
+
+
 @media screen and (min-width:900px){
       .header-container{
           justify-content: space-between;

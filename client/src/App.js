@@ -1,14 +1,9 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import Homepage from './components/Homepage';
 import './App.css';
 import Header from './components/Header';
 import ResumeViewer from './components/ResumeViewer';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { Switch, Route,} from "react-router-dom";
 
 function App() {
 
@@ -27,7 +22,7 @@ function App() {
             <Homepage/>
           </Route>
       </Switch>
-  
+
     </div>
   );
 }
