@@ -19,8 +19,7 @@ const Projects = (props) => {
                 </div>
                 
             </div>
-            <div className="parallax">
-            </div>  
+           
         </div>
     )
 }

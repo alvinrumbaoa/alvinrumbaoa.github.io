@@ -82,6 +82,27 @@ body, .container{
 /* Homepage */
 span{
   color: #fff;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  transform: translateY(-50%);   
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
 .homepage-container{
   min-height: 65vh;
@@ -109,7 +130,7 @@ span{
 
 
 .homepage-image img{
-  border-radius: 90%;
+  border-radius: 50%;
   object-fit: cover;
   border: solid 5px black;
   box-shadow: 0 0 10px;
@@ -348,29 +369,32 @@ transition: background-color 0.3s ease;
 
 
 /* About Page */
-
-
-
 .about-container{
   display: flex;
   flex-direction: column;
-  min-height: 40vh;
+  min-height: 50vh;
   justify-content:center;
   align-items: flex-start;
   box-shadow:  1px 1px 1px 1px black;
+  object-fit: cover;
   background-image: url("./images/alvin2.jpg");
   background-attachment: fixed;
   background-position: center;
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
   background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
   color: #fff;
+
 }
 
 
-
+  @-webkit-keyframes appear {
+  0%{ opacity: 0; -webkit-transform: scale3d(0.3, 0.3, 0.3); transform: scale3d(0.3, 0.3, 0.3); }
+  60%{ opacity: 1; -webkit-transform: scale3d(1,1,1); transform: scale3d(1,1,1); }
+  }
+  @keyframes appear {
+  0%{ opacity: 0; transform: scale3d(0.3, 0.3, 0.3); }
+  60%{ opacity: 1; transform: scale3d(1,1,1); }
+  }
 
 
 
