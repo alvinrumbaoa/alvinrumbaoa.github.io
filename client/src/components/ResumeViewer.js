@@ -20,11 +20,11 @@ const ResumeViewer = ( ) =>{
     ]
 
     const onCloseHandler = () =>{
-        <Link to="/alvinrumbaoa.github.io/" />
+        <Link to="/alvinrumbaoa.github.io/"/>
     }   
     return(
         <div className="viewer-container">
-                <Lightbox image={images} title="My Resume" onClose ={handleClick}/>
+                <Lightbox image={images} title="My Resume" onClose ={onCloseHandler}/>
         </div>
     )
 }
