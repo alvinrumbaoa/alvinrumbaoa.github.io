@@ -1,7 +1,7 @@
 import React from 'react';
 import Lightbox from "react-awesome-lightbox";
 import "react-awesome-lightbox/build/style.css";
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import { useHistory } from 'react-router';
 
 const ResumeViewer = ( ) =>{
@@ -10,17 +10,17 @@ const ResumeViewer = ( ) =>{
 
     let images = [
         {
-            url:"../public/images/resume.png",
+            url:".../public/images/resume.png",
             title:"Resume"
         },
         {
-            url:"/../public/images/certificate.png",
+            url:".../public/images/certificate.png",
             title:"Certificate"
         }
     ]
 
     const onCloseHandler = () =>{
-        <Link to="/alvinrumbaoa.github.io/"/>
+        <NavLink to="/alvinrumbaoa.github.io/"/>
     }   
     return(
         <div className="viewer-container">
