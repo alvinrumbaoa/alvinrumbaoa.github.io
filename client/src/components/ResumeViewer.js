@@ -6,22 +6,19 @@ import { useHistory } from 'react-router';
 
 const ResumeViewer = ( ) =>{
     const history = useHistory();
-    const handleClick = () => history.push('/alvinrumbaoa.github.io /');
+    const handleClick = () => history.push('/alvinrumbaoa.github.io/');
 
-    let images = [
+    const images = [
         {
-            url:".../public/images/resume.png",
+            url:"./client/public/images/resume.png",
             title:"Resume"
         },
         {
-            url:".../public/images/certificate.png",
+            url:"./client/public/images/certificate.png",
             title:"Certificate"
         }
     ]
-
-    const onCloseHandler = () =>{
-     <Link to="/alvinrumbaoa.github.io/"/>;
-    }   
+ 
     return(
         <div className="viewer-container">
                 <Lightbox image={images} title="My Resume" onClose ={handleClick}/>
