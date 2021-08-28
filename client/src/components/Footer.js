@@ -42,7 +42,13 @@ const Footer = () =>{
             <motion.div initial="out" animate="in" exit="out" variants={animationOne} transition={transition}>
 
                 <div className="contact-us-container">
-                    <h1 className="big-text">Let's Make it Happen </h1>
+                    <h1 className="big-text">Hire Us</h1>
+                    <div className="contact-us-wrapper">
+                    <div className="contact-us-left">
+                        <img src="images/011.png" alt="bike-illustrator" width="400" height="500"/>
+                    </div> 
+
+                    <div className="contact-us-right">
                     <form onSubmit={onSubmitHandler}>
                         <div className="textbox-bg">
                             <p>Name:</p> <input className={errors.name? "error-red": null} type="text" name="name"  onChange={(e) => setName(e.target.value)}/>
@@ -78,8 +84,9 @@ const Footer = () =>{
                             }
                         <br/>
                         <input className="submit-btn" type="submit" value="Hire Me"/>
-                    </form> 
-                    <h4 className="sub-text">Follow Us:</h4>           
+                    </form>    
+                    </div>
+                    </div>  
                     <div className="social-media">
                                 <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.90 }} >
                                         <a href="https://www.facebook.com/xenofy/">
@@ -106,8 +113,8 @@ const Footer = () =>{
                                             <img src="images/linkedin (2).png" alt="" height="90" width="90"/>
                                     </a>
                                 </motion.div>
-                    </div>
-                    </div>           
+                    </div>        
+                    </div> 
             </motion.div>     
             </div>
         </div>
