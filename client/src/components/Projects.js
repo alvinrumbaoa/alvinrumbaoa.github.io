@@ -17,9 +17,7 @@ const Projects = (props) => {
                         <a href="xenodochy23.github.io/d2w-logistics" ><img className="demo" src="images/d2w-demo.gif" alt="project" width="500" height="350"/></a>
                 </div>
                 </div>
-                
             </div>
-           
         </div>
     )
 }

@@ -8,13 +8,12 @@ const About = () =>{
         <div className= "container">
                 <div className="about-container">
                     <div className="about-pics">
-                    <img className="Profile-card" src="/images/alvin.png" alt="" />
+                    <img className="Profile-card" src="images/alvin1.jpg" alt="potrait" />
                     </div>
                         <div className="about-description">
                         <h1>About Me</h1>
-                       
-                        <p className="about-text">Hello my name is Alvin Rumbaoa. I have passion about what i do specially in coding. The Passionate you are , the better and  competitive your work is.  I've jsut completed my full stack web developer course  at Coding Dojo on August 2021. </p>
-                      </div>
+                        <p className="about-text">My name is Alvin Rumbaoa and I’m a Freelance Web Developer and Full Stack Web Developer based in Orange County, California.I have a serious passion for coding. I love building and designing applications and solutions using a range of technologies and programming languages.When I’m not behind a computer, I love to spend time with my family and my church community. I also enjoy playing guitar and traveling.Let's create something great.  </p>
+                    </div>
             </div> 
         </div>
     )

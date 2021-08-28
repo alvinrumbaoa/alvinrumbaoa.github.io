@@ -25,8 +25,8 @@ const Homepage = () => {
                     </div>
             </div>         
             <Skills/>
-            <Testimonials/>
             <About/>
+            <Testimonials/>
             <div className="parallax"></div>
             <Projects/>
             <Footer/>

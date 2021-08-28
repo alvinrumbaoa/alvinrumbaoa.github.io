@@ -130,7 +130,10 @@ span{
 
 
 .homepage-image img{
-  border-radius: 50%;
+  display: flex;
+  width: 90%;
+  height: 90%;
+  border-radius: 75%;
   object-fit: cover;
   border: solid 5px black;
   box-shadow: 0 0 10px;
@@ -373,19 +376,19 @@ transition: background-color 0.3s ease;
   display: flex;
   flex-direction: column;
   min-height: 50vh;
-  justify-content:center;
-  align-items: flex-start;
+  align-items:center;
+  justify-content: center;
   box-shadow:  1px 1px 1px 1px black;
   object-fit: cover;
-  background-image: url("./images/alvin2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+padding:30px;
+}
+Profile-card{
 
 }
-
 
   @-webkit-keyframes appear {
   0%{ opacity: 0; -webkit-transform: scale3d(0.3, 0.3, 0.3); transform: scale3d(0.3, 0.3, 0.3); }
@@ -453,8 +456,8 @@ transition: background-color 0.3s ease;
   }
 
   .homepage-image img{
-    width: 40%;
-    height: 40%;
+    width: 45%;
+    height: 45%;
   }
 
   .profile{
