@@ -4,6 +4,9 @@ const Projects = (props) => {
 
     return(
         <div className= "container">
+            <div className="parallax">
+                
+            </div>
             <div className="project-container">
             <h1>Recent Projects</h1>
                 <div className="project-wrapper">

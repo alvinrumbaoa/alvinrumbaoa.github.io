@@ -26,9 +26,10 @@ const Homepage = () => {
             </div>         
             <Skills/>
             <About/>
-            <Testimonials/>
+         
             <div className="parallax"></div>
             <Projects/>
+            <Testimonials/>
             <Footer/>
         </div>
     )
