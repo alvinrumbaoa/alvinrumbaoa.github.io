@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/alvinrumbaoa.github.io/static/css/main.b3835a4f.chunk.css",
-    "main.js": "/alvinrumbaoa.github.io/static/js/main.35d67c8d.chunk.js",
-    "main.js.map": "/alvinrumbaoa.github.io/static/js/main.35d67c8d.chunk.js.map",
+    "main.css": "/alvinrumbaoa.github.io/static/css/main.95a4e657.chunk.css",
+    "main.js": "/alvinrumbaoa.github.io/static/js/main.40e6aece.chunk.js",
+    "main.js.map": "/alvinrumbaoa.github.io/static/js/main.40e6aece.chunk.js.map",
     "runtime-main.js": "/alvinrumbaoa.github.io/static/js/runtime-main.a7fcb528.js",
     "runtime-main.js.map": "/alvinrumbaoa.github.io/static/js/runtime-main.a7fcb528.js.map",
     "static/css/2.07e018fc.chunk.css": "/alvinrumbaoa.github.io/static/css/2.07e018fc.chunk.css",
@@ -12,15 +12,15 @@
     "static/js/3.2fdf1081.chunk.js.map": "/alvinrumbaoa.github.io/static/js/3.2fdf1081.chunk.js.map",
     "index.html": "/alvinrumbaoa.github.io/index.html",
     "static/css/2.07e018fc.chunk.css.map": "/alvinrumbaoa.github.io/static/css/2.07e018fc.chunk.css.map",
-    "static/css/main.b3835a4f.chunk.css.map": "/alvinrumbaoa.github.io/static/css/main.b3835a4f.chunk.css.map",
+    "static/css/main.95a4e657.chunk.css.map": "/alvinrumbaoa.github.io/static/css/main.95a4e657.chunk.css.map",
     "static/js/2.4b4c9b44.chunk.js.LICENSE.txt": "/alvinrumbaoa.github.io/static/js/2.4b4c9b44.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/alvinrumbaoa.github.io/static/media/cyan-bg.af64b91c.jpg"
+    "static/media/App.css": "/alvinrumbaoa.github.io/static/media/bg-titanium.0c545ca2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a7fcb528.js",
     "static/css/2.07e018fc.chunk.css",
     "static/js/2.4b4c9b44.chunk.js",
-    "static/css/main.b3835a4f.chunk.css",
-    "static/js/main.35d67c8d.chunk.js"
+    "static/css/main.95a4e657.chunk.css",
+    "static/js/main.40e6aece.chunk.js"
   ]
 }
