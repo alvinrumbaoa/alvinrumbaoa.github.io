@@ -8,7 +8,7 @@ const Projects = (props) => {
                 
             </div>
             <div className="project-container">
-            <h1>Recent Projects</h1>
+            <h1>My Recent Works</h1>
                 <div className="project-wrapper">
         
                 <div className="projects-card">
