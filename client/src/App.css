@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Poppins:wght@300&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
 
 html{
@@ -102,7 +101,7 @@ my-name {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: #e3cdb3; }
 }
 .homepage-container{
   min-height: 65vh;
@@ -471,7 +470,7 @@ transition: background-color 0.3s ease;
 
 
 
-@media screen and (min-width:10px){
+@media screen and (max-width:600px){
 
   .header-container{
     line-height: 1rem;
@@ -546,7 +545,7 @@ transition: background-color 0.3s ease;
 }
 
 
-@media screen and (min-width:600px){
+@media screen and (min-width:768px){
       .header-container{
           line-height: 1.5rem;
           justify-content: space-between;
@@ -601,7 +600,7 @@ transition: background-color 0.3s ease;
 
 
 
-@media screen and (min-width:900px){
+@media screen and (min-width:992px){
       .header-container{
           justify-content: space-between;
           padding: 0.5rem 0;
