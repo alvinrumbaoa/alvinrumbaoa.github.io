@@ -9,7 +9,7 @@ const ResumeViewer = ( ) =>{
  
     return(
         <div className="viewer-container">
-                <Lightbox image="https://i.ibb.co/3zRxc9Y/resume.png" title="My Resume" onClose ={handleClick}/>
+                <Lightbox className="resume-image"image="https://i.ibb.co/3zRxc9Y/resume.png" title="My Resume" onClose ={handleClick}/>
         </div>
     )
 }
