@@ -49,7 +49,9 @@ body, .container{
   text-align: center;
   font-size: 1.1rem;
 }
-
+.resume-image img{
+  object-fit: cover;
+}
 .logo a, .nav-menu2 a{
   display: flex;
   text-decoration: none;
