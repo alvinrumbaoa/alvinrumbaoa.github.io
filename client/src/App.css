@@ -93,7 +93,6 @@ body, .container{
   border-right: .15em solid #e3cdb3; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  font-size: 3.5rem;
   animation: 
     typing 2s steps(22), 
     blink-caret .75s step-end infinite;
