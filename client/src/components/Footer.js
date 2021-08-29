@@ -42,7 +42,7 @@ const Footer = () =>{
             <motion.div initial="out" animate="in" exit="out" variants={animationOne} transition={transition}>
 
                 <div className="contact-us-container">
-                    <h1 className="big-text">Hire Us</h1>
+                    <h1 className="big-text">Start a Project </h1>
                     <div className="contact-us-wrapper">
                     <div className="contact-us-left">
                         <img src="images/011.png" alt="bike-illustrator" width="400" height="500"/>
@@ -83,7 +83,7 @@ const Footer = () =>{
                                 : null
                             }
                         <br/>
-                        <input className="submit-btn" type="submit" value="Hire Me"/>
+                        <input className="submit-btn" type="submit" value="Let's Do this"/>
                     </form>    
                     </div>
                     </div>  
