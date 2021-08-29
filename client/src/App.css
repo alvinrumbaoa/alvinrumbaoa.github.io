@@ -86,23 +86,24 @@ body, .container{
   transform: scale(0.9);
 }
 /* Homepage */
-my-name {
+.my-name {
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #e3cdb3; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .10em; /* Adjust as needed */
-  transform: translateY(-50%);   
+  font-size: 3.5rem;
   animation: 
-    typing 3.5s steps(40, end),
+    typing 2s steps(22), 
     blink-caret .75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0
+  }
 }
 
 /* The typewriter cursor effect */
@@ -138,9 +139,10 @@ h1{
   font-family: 'Play', sans-serif;
   font-size: 3rem;
 }
-
-.homepage-image img{
+.homepage-image{
   display: flex;
+}
+.homepage-image img{
   max-width: 100%;
   height: auto;
   border-radius: 75%;
@@ -487,11 +489,11 @@ transition: background-color 0.3s ease;
     align-items: center;
     justify-content: center;
     text-align: center;
- }
- .contact-us-left img{
-   width: 50%;
-   height: 60%;
- }
+  }
+  .contact-us-left img{
+    width: 50%;
+    height: 60%;
+  }
   .header-container{
     display: flex;
     line-height: 1rem;
