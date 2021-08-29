@@ -50,14 +50,21 @@ body, .container{
   font-size: 1.1rem;
 }
 
-.logo a, .nav-menu, .nav-menu2 a{
+.logo a, .nav-menu2 a{
   display: flex;
   text-decoration: none;
   letter-spacing: 0.2rem;
   padding: 0.8rem;
   color:#b9c1b9;
 }
-
+.nav-menu a{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  padding: 0.8rem;
+  color:#b9c1b9;
+}
 .logo{
   color: #afb9c5;
 }
@@ -82,7 +89,7 @@ body, .container{
 my-name {
   color: #fff;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15em solid #e3cdb3; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .10em; /* Adjust as needed */
@@ -260,7 +267,7 @@ textarea {
     height: 100px;
 }
 .footer{
-  background-color:#FFE8D1;   
+    background-color: #484e52;
 }
 .contact-us-container{
   display: flex;
@@ -269,7 +276,7 @@ textarea {
   flex-direction: column;
   padding: 20px;
   box-shadow:  1px 1px 1px 1px black;
-  background-color: #46413b;
+  background-color: #484e52;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -458,6 +465,9 @@ transition: background-color 0.3s ease;
   border: solid 5px black;
   box-shadow: 0 0 10px;
 }
+.about-text{
+  font-size: 1.2rem;
+}
 
   @-webkit-keyframes appear {
   0%{ opacity: 0; -webkit-transform: scale3d(0.3, 0.3, 0.3); transform: scale3d(0.3, 0.3, 0.3); }
@@ -470,9 +480,20 @@ transition: background-color 0.3s ease;
 
 
 
-@media screen and (max-width:600px){
-
+@media only screen and ( max-width:600px){
+  .contact-us-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+ .contact-us-left img{
+   width: 50%;
+   height: 60%;
+ }
   .header-container{
+    display: flex;
     line-height: 1rem;
     position: relative;
     justify-content: space-between;
@@ -482,20 +503,21 @@ transition: background-color 0.3s ease;
     background: transparent;
     border: none;
     flex-direction: column;
-
   }
 .nav-menu{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   list-style: none;
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
+
 }
 .nav-menu2{
   display: none;
+  
 }
 .hidebar{
   display: none;
@@ -542,10 +564,11 @@ transition: background-color 0.3s ease;
   .skill-cards{
     flex: auto;
   }
+
 }
 
 
-@media screen and (min-width:768px){
+@media screen and (min-width:600px){
       .header-container{
           line-height: 1.5rem;
           justify-content: space-between;
@@ -583,12 +606,12 @@ transition: background-color 0.3s ease;
         text-align: center;
         justify-content:center;
         align-content:center;
-        /* width: 50%;
+        width: 50%;
         height: 50%;
       }
       .about-pics img{
         width: 40%;
-        height: 40%; */
+        height: 40%;
       }
       .main-text{
         font-size: 20px;
@@ -600,7 +623,7 @@ transition: background-color 0.3s ease;
 
 
 
-@media screen and (min-width:992px){
+@media screen and (min-width:601px){
       .header-container{
           justify-content: space-between;
           padding: 0.5rem 0;
@@ -618,6 +641,9 @@ transition: background-color 0.3s ease;
         justify-content: center;
       }
       .nav-menu{
+        display: none;
+      }
+      .hidebar{
         display: none;
       }
       .list-item{
