@@ -40,7 +40,7 @@ const Footer = () =>{
         <div className="container">
             <div className="footer">          
             <motion.div initial="out" animate="in" exit="out" variants={animationOne} transition={transition}>
-
+                <div className="parallax2"> </div>
                 <div className="contact-us-container">
                     <h1 className="big-text">Start a Project </h1>
                     <div className="contact-us-wrapper">

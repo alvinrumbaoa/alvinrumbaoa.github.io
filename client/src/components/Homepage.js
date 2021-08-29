@@ -21,12 +21,11 @@ const Homepage = () => {
                         </Link>
                     </div>   
                     <div className ="homepage-image">
-                                <img  src="images/alvin-bg (1).png" alt="avatar"/>
+                                <img  src="images/alvin-bg (1).png" alt="avatar" width="460" height="345"/>
                     </div>
             </div>         
             <Skills/>
             <About/>
-         
             <div className="parallax"></div>
             <Projects/>
             <Testimonials/>

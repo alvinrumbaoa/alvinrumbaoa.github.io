@@ -8,7 +8,7 @@ const Skills = (props) => {
         <div className= "container">
             <div className="skills-section">
             <motion.div initial="out" animate="in" exit="out" variants={animationOne} transition={transition}>
-                    <h1>My Skills</h1> 
+                <h1>Technologies Used</h1> 
                 <div className="skill-card-wrapper">     
                         <div className="skill-cards">
                                 <div className="icons">
