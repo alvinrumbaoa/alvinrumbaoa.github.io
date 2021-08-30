@@ -8,6 +8,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 
 function App() {
+  
 
   useEffect(() => {
     document.title = "Alvin Rumbaoa | Full Stack Web Developer";
