@@ -16,7 +16,7 @@ const Homepage = () => {
                         <h2>Freelance Web Designer and Full Stack Web Developer based on Orange County, California</h2>
                         <Link to="/alvinrumbaoa.github.io/image/">
                             <button className="lightbox-btn">
-                                    Check out my CV
+                                    Check out Resume
                             </button>
                         </Link>
                     </div>   
