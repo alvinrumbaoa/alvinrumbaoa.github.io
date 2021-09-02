@@ -9,15 +9,6 @@ import React , {useState} from 'react';
                 client: "Vanessa Baez, R1 Concepts",
                 quote: " You are a strong part of the team here at R1 forecast is important in making sure we have our highest sellers in stock and ready to be shipped out when customers order parts. I believe you have a lot of room to grow in learning different jobs here at R1. You recently began helping Inventory and I know for them it is a huge help. You always have a smile and jokes for the office super important in making sure the environment is friendly and healthy"
             },      
-            2: {
-                client: "Instructor Zack Pieper",
-                quote: "Really great work when it comes to CSS designs from  "
-            },        
-            3: {
-                client: "Caremax",
-                quote: "Very hardworking and storng work ethic when it comes to his task and responsibilities. "
-            },       
-
         };
 
     const [current, setCurrent] =useState(quotes[0]);
