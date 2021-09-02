@@ -573,6 +573,9 @@ transition: background-color 0.3s ease;
   .my-name {
     text-align: center;
   }
+  h1{
+    line-height: 1rem;
+  }
 }
 
 
