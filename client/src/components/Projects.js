@@ -13,7 +13,7 @@ const Projects = (props) => {
         
                 <div className="projects-card">
                     <h2>TheRumbaoas</h2>
-                        <a href="https:/xenodochy23.github.io/blog"  ><img className="demo" src="images/photography-demo.gif" alt="project" width="500" height="350"/></a>
+                        <a href="https://therumbaoas.netlify.app/"><img className="demo" src="images/photography-demo.gif" alt="project" width="500" height="350"/></a>
                 </div>
                 <div className="projects-card">
                     <h2>D2W Logistics</h2>
