@@ -21,7 +21,7 @@ function App() {
           <Route path="/alvinrumbaoa.github.io/image">
             <ResumeViewer />
           </Route>
-          <Route path ="/alvinrumbaoa.github.io/">
+          <Route path ="/alvinrumbaoa.github.io">
             <Homepage/>
           </Route>
           <Route path="alvinrumbaoa.github.io/about" component={About} />

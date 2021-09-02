@@ -43,7 +43,10 @@ body, .container{
   list-style: none;
   width: 100%;
 }
-
+a{
+  text-decoration: none;
+  list-style: none;
+}
 .list-item{
   flex: 1 0 40%;
   text-align: center;

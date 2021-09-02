@@ -25,11 +25,11 @@ const Homepage = () => {
                     </div>
             </div>         
             <Skills/>
-            <About/>
+            <a id="about"><About/></a>
             <div className="parallax"></div>
-            <Projects/>
+            <a id="works"><Projects/></a>
             <Testimonials/>
-            <Footer/>
+            <a id="contactme"><Footer/></a>
         </div>
     )
 }
