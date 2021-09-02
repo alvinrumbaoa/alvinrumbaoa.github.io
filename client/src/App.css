@@ -278,7 +278,7 @@ textarea {
 .contact-us-container{
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: center;
   flex-direction: column;
   padding: 20px;
   box-shadow:  1px 1px 1px 1px black;

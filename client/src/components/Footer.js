@@ -1,39 +1,39 @@
-import React, { useState} from 'react';
+import React from 'react';
 import axios from 'axios';
 import {motion } from 'framer-motion';
 import {animationOne, transition} from "../animations/Animation";
-import {navigate} from '@reach/router'
+
 
 const Footer = () =>{
 
-    const [errors, setErrors] = useState([]);
-    const [name, setName]  = useState("");
-    const [email, setEmail] = useState("");
-    const [phone, setPhone] = useState("");
-    const [message,setMessage] = useState("");
+    // const [errors, setErrors] = useState([]);
+    // const [name, setName]  = useState("");
+    // const [email, setEmail] = useState("");
+    // const [phone, setPhone] = useState("");
+    // const [message,setMessage] = useState("");
 
-    const onSubmitHandler =  (e) =>{
-        e.preventDefault();
-        axios.post("http://localhost:8000/api/customers", {
-            name: name,
-            email: email,
-            phone: phone,
-            message: message,
-        })
-        .then((res) =>{
-            console.log(res.data.errors);
-            if(res.data.errors){
-                setErrors(res.data.errors);
+    // const onSubmitHandler =  (e) =>{
+    //     e.preventDefault();
+    //     axios.post("http://localhost:8000/api/customers", {
+    //         name: name,
+    //         email: email,
+    //         phone: phone,
+    //         message: message,
+    //     })
+    //     .then((res) =>{
+    //         console.log(res.data.errors);
+    //         if(res.data.errors){
+    //             setErrors(res.data.errors);
             
-            } else{
-                navigate("/submitted");
-            }        
-        })
-        .catch(err => { 
-            console.log(err.response);
-            setErrors(err.response.data.errors);
-        })      
-    }
+    //         } else{
+    //             navigate("/submitted");
+    //         }        
+    //     })
+    //     .catch(err => { 
+    //         console.log(err.response);
+    //         setErrors(err.response.data.errors);
+    //     })      
+    // }
 
 
     return (
@@ -43,50 +43,9 @@ const Footer = () =>{
                 <div className="parallax2"> </div>
                 <div className="contact-us-container">
                     <h1 className="big-text">Start a Project </h1>
-                    <div className="contact-us-wrapper">
-                    <div className="contact-us-left">
-                        <img src="images/011.png" alt="bike-illustrator" width="400" height="500"/>
-                    </div> 
-
-                    <div className="contact-us-right">
-                    <form onSubmit={onSubmitHandler}>
-                        <div className="textbox-bg">
-                            <p>Name:</p> <input className={errors.name? "error-red": null} type="text" name="name"  onChange={(e) => setName(e.target.value)}/>
-                        </div>
-                        {
-                            errors.name ?
-                                <span className="error-text">{errors.name.message}</span>
-                                : null
-                            }
-                        <div className="textbox-bg">
-                        <p>Email:</p>  <input className={errors.email? "error-red": null}type="text" name="email"  onChange={(e) => setEmail(e.target.value)}/>
-                        </div>
-                        {
-                            errors.email ?
-                                <span className="error-text">{errors.email.message}</span>
-                                : null
-                        }
-                        <div className="textbox-bg">
-                        <p>Phone:</p> <input className={errors.phone? "error-red": null} type="text" name="phone" onChange={(e) => setPhone(e.target.value)}/>
-                        </div>
-                            {
-                            errors.phone ?
-                                <span className="error-text">{errors.phone.message}</span>
-                                : null
-                            }
-                        <div className="textbox-bg">
-                        <p>Message:</p> <textarea className={errors.message? "error-red": null} type="textarea" name="message"  onChange={(e) => setMessage(e.target.value)}/>
-                        </div>
-                        {
-                            errors.message ?
-                                <span className="error-text">{errors.message.message}</span>
-                                : null
-                            }
-                        <br/>
-                        <input className="submit-btn" type="submit" value="Let's Do this"/>
-                    </form>    
-                    </div>
-                    </div>  
+                                <h2>Ready and Open for any ideas for your next Project</h2>
+                                <p>Contact me: alvinrumbaoa@gmail.com </p>
+               
                     <div className="social-media">
                                 <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.90 }} >
                                         <a href="https://www.facebook.com/xenofy/">
@@ -111,6 +70,11 @@ const Footer = () =>{
                                 <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.90 }} >
                                     <a href="https://www.twitter.com">
                                             <img src="images/linkedin (2).png" alt="" height="90" width="90"/>
+                                    </a>
+                                </motion.div>
+                                <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.90 }} >
+                                    <a href="mailto:alvinrumbaoa@gmail.com">
+                                            <img src="images/iphone-messages-app.png" alt="" height="90" width="90"/>
                                     </a>
                                 </motion.div>
                     </div>        
