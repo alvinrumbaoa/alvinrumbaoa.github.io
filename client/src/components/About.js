@@ -10,7 +10,7 @@ const About = () =>{
                     </div>
                     <h1>About Me</h1>
                         <div className="about-description">                  
-                        <p className="about-text">My name is Alvin Rumbaoa and I’m a Freelance Web Developer and Full Stack Web Developer based in Orange County, California.I have a serious passion for coding. I love building and designing applications and solutions using a range of technologies and programming languages.When I’m not behind a computer, I love to spend time with my family and my church community. I also enjoy playing guitar and traveling. <strong>Let's create something great. </strong> </p>
+                        <p className="about-text">My name is Alvin Rumbaoa and I’m a Freelance Web Developer and Full Stack Web Developer based in Orange County, California.I have a serious passion for coding. I love building and designing applications and solutions using a range of technologies and programming languages.When I’m not behind a computer, I love to spend time with my family and my church community. I also enjoy playing guitar and traveling. <strong><a href="mailto:alvinrumbaoa@gmail.com">Let's create something great. </a></strong> </p>
                     </div>
             </div> 
         </div>
