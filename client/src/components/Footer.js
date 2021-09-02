@@ -44,8 +44,6 @@ const Footer = () =>{
                 <div className="contact-us-container">
                     <h1 className="big-text">Start a Project </h1>
                                 <h2>Ready and Open for any ideas for your next Project</h2>
-                                <p>Contact me: alvinrumbaoa@gmail.com </p>
-               
                     <div className="social-media">
                                 <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.90 }} >
                                         <a href="https://www.facebook.com/xenofy/">
