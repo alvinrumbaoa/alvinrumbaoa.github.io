@@ -25,13 +25,11 @@ const Header = (props) => {
             <li className="list-item"><Link to="/alvinrumbaoa.github.io/">Home</Link></li>
                     <li className="list-item"><a href="#about">About</a></li>
                     <li className="list-item"><a href="#works">Works</a></li>
-                    <li className="list-item"><a href="#contactme">Hire Me</a></li>      
             </ul>         
                 <ul className="nav-menu2">
                     <li className="list-item"><Link to="/alvinrumbaoa.github.io/">Home</Link></li>
                     <li className="list-item"><a href="#about">About</a></li>
-                    <li className="list-item"><a href="#works">Works</a></li>
-                    <li className="list-item"><a href="#contactme">Hire Me</a></li>      
+                    <li className="list-item"><a href="#works">Works</a></li>    
                 </ul>    
             </nav>
         </div>
