@@ -580,6 +580,9 @@ transition: background-color 0.3s ease;
 
 
 @media screen and (min-width:600px){
+      body{
+        width: auto;
+      }
       .header-container{
           line-height: 1.5rem;
           justify-content: space-between;
@@ -588,7 +591,7 @@ transition: background-color 0.3s ease;
         display: none;
         width: 100%;
       } 
-
+      
       .nav-menu2{
         display: flex;
         flex-direction: row;
