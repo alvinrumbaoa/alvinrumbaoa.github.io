@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alvinrumbaoa.github.io/static/css/main.6f6ef6cc.chunk.css",
-    "main.js": "/alvinrumbaoa.github.io/static/js/main.b8ef52c2.chunk.js",
-    "main.js.map": "/alvinrumbaoa.github.io/static/js/main.b8ef52c2.chunk.js.map",
+    "main.js": "/alvinrumbaoa.github.io/static/js/main.b157297a.chunk.js",
+    "main.js.map": "/alvinrumbaoa.github.io/static/js/main.b157297a.chunk.js.map",
     "runtime-main.js": "/alvinrumbaoa.github.io/static/js/runtime-main.a7fcb528.js",
     "runtime-main.js.map": "/alvinrumbaoa.github.io/static/js/runtime-main.a7fcb528.js.map",
     "static/css/2.07e018fc.chunk.css": "/alvinrumbaoa.github.io/static/css/2.07e018fc.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.07e018fc.chunk.css",
     "static/js/2.e2a2b3c7.chunk.js",
     "static/css/main.6f6ef6cc.chunk.css",
-    "static/js/main.b8ef52c2.chunk.js"
+    "static/js/main.b157297a.chunk.js"
   ]
 }
