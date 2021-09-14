@@ -112,7 +112,6 @@ a {
 /* Homepage */
 
 .my-name {
-    font-family: 'Poppins', sans-serif;
     color: #fff;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
@@ -644,6 +643,7 @@ textarea {
     }
     .my-name {
         text-align: center;
+        justify-content: center;
     }
     h1 {
         line-height: 3rem;
