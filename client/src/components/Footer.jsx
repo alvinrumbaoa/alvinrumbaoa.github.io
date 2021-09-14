@@ -35,19 +35,20 @@ const Footer = () =>{
     //     })      
     // }
 
-
     return (
         <div className="container">
             <div className="footer">          
             <motion.div initial="out" animate="in" exit="out" variants={animationOne} transition={transition}>
                 <div className="parallax2"> </div>
                 <div className="contact-us-container">
-                    <h1 className="big-text">Start a Project </h1>
+                    <h1 className="big-text">Freelance Work or Hire me for Employment</h1>
                                 <h2>Ready and Open for any ideas for your next Project</h2>
-                                {/* <!-- Calendly inline widget begin --> */}
-                                    <div class="calendly-inline-widget" data-url="https://calendly.com/alvinrumbaoa/30min" style="min-width:320px;height:630px;"></div>
-                                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-                                {/* <!-- Calendly inline widget end --> */}
+                                <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.90 }} >
+                                        <a href="https://calendly.com/alvinrumbaoa/30min">
+                                            <img src="images/add-video.png" alt="" height="200" width="200"/>
+                                            <h2>Schedule with me</h2>
+                                        </a>
+                                </motion.div>
                     <div className="social-media">
                                 <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.90 }} >
                                         <a href="https://www.facebook.com/xenofy/">
