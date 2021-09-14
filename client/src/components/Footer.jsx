@@ -44,6 +44,10 @@ const Footer = () =>{
                 <div className="contact-us-container">
                     <h1 className="big-text">Start a Project </h1>
                                 <h2>Ready and Open for any ideas for your next Project</h2>
+                                {/* <!-- Calendly inline widget begin --> */}
+                                    <div class="calendly-inline-widget" data-url="https://calendly.com/alvinrumbaoa/30min" style="min-width:320px;height:630px;"></div>
+                                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                                {/* <!-- Calendly inline widget end --> */}
                     <div className="social-media">
                                 <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.90 }} >
                                         <a href="https://www.facebook.com/xenofy/">
@@ -75,7 +79,8 @@ const Footer = () =>{
                                             <img src="images/iphone-messages-app.png" alt="" height="90" width="90"/>
                                     </a>
                                 </motion.div>
-                    </div>        
+                    </div>   
+
                     </div> 
             </motion.div>     
             </div>
