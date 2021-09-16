@@ -4,13 +4,10 @@ const Projects = (props) => {
 
     return(
         <div className= "container">
-            <div className="parallax">
-                
-            </div>
+            <div className="parallax"></div>
             <div className="project-container">
             <h1>My Recent Works</h1>
                 <div className="project-wrapper">
-        
                 <div className="projects-card">
                     <h2>TheRumbaoas</h2>
                         <a href="https://therumbaoas.netlify.app/"><img className="demo" src="images/photography-demo.gif" alt="project" width="400" height="250"/></a>

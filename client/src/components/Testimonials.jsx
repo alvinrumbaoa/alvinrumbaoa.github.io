@@ -7,7 +7,8 @@ const Testimonials = (props) => {
             <div className="carousel-container">
                 <h1>Testimonials</h1>
                     <Quotes/>
-            </div>   
+            </div>  
+            <div className="parallax2"> </div> 
         </div>
     )
 }
