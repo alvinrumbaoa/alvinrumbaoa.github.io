@@ -12,7 +12,7 @@ const Homepage = () => {
         <div className= "container">
             <div className ="homepage-container">
                     <div className ="homepage">
-                        <h1 className="main-text">Hello! I'm <span className="my-name">Alvin Rumbaoa</span></h1>
+                        <h1 className="main-text">Hello! I'm Alvin Rumbaoa </h1>
                         <h2>Freelance Web Designer and Full Stack Web Developer based in Orange County, California</h2>
                         <Link to="/alvinrumbaoa.github.io/image/">
                             <button className="lightbox-btn">

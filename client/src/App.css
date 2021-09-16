@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
 html {
-    position: relative;
     font-size: 100%;
     line-height: 1.5rem;
     box-sizing: border-box;
@@ -12,7 +11,6 @@ body,
 .container {
     margin: 0 auto;
     padding: 0;
-    /* min-height:  100vh; */
 }
 
 *,
@@ -542,12 +540,16 @@ textarea {
         transform: scale3d(0.3, 0.3, 0.3);
     }
     60% {
-        opacity: 1;
+        opacity: 1; 
         transform: scale3d(1, 1, 1);
     }
 }
 
 @media only screen and ( max-width:600px) {
+    .container {
+        overflow-x:auto;    
+    }
+    
     .contact-us-wrapper {
         display: flex;
         flex-direction: column;
@@ -648,9 +650,7 @@ textarea {
 }
 
 @media screen and (min-width:600px) {
-    body {
-        width: auto;
-    }
+    
     .header-container {
         line-height: 1.5rem;
         justify-content: space-between;
