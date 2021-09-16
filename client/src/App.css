@@ -448,7 +448,7 @@ textarea {
     align-items: center;
     justify-content: center;
     height: 50vh;
-    width: 80ch;
+    width: 50ch;
     margin: 10px;
     padding: 5rem;
     flex-direction: column;
@@ -632,10 +632,9 @@ textarea {
         flex: auto;
     }
     .projects-card {
-        display: flex;
-        padding: 30px;
-        margin: 30px;
+        width: auto;
     }
+    
     .demo {
         width: 200px;
         height: 200px;
