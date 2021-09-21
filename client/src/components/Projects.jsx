@@ -10,11 +10,11 @@ const Projects = (props) => {
                 <div className="project-wrapper">
                 <div className="projects-card">
                     <h2>TheRumbaoas</h2>
-                        <a href="https://therumbaoas.netlify.app/"><img className="demo" src="images/photography-demo.gif" alt="project" width="400" height="250"/></a>
+                        <a href="https://github.com/xenodochy23/therumbaoas"><img className="demo" src="images/photography-demo.gif" alt="project" width="400" height="250"/></a>
                 </div>
                 <div className="projects-card">
                     <h2>D2W Logistics</h2>
-                        <a href="xenodochy23.github.io/d2w-logistics" ><img className="demo" src="images/d2w-demo.gif" alt="project" width="400" height="250"/></a>
+                        <a href="https://github.com/rstclair26/d2w-logistics" ><img className="demo" src="images/d2w-demo.gif" alt="project" width="400" height="250"/></a>
                 </div>
                 </div>
             </div>
