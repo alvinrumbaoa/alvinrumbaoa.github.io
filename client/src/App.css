@@ -638,6 +638,7 @@ textarea {
     .demo {
         width: 200px;
         height: 200px;
+        box-shadow: 2px black;
     }
     .my-name {
         text-align: center;
