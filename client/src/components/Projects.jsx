@@ -11,6 +11,7 @@ const Projects = (props) => {
                 <div className="projects-card">
                     <h2>TheRumbaoas</h2>
                         <a href="http://therumbaoas.com/"><img className="demo" src="images/photography-demo.gif" alt="project" width="400" height="250"/></a>
+                        
                 </div>
                 <div className="projects-card">
                     <h2>D2W Logistics</h2>
