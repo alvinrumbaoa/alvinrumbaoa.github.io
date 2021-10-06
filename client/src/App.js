@@ -15,16 +15,16 @@ function App() {
 
         <Header />
         <Switch >
-        <Route path = "/alvinrumbaoa.github.io/image">
-        <ResumeViewer />
-        
-        </Route>  
-        <Route path = "/alvinrumbaoa.github.io">
-        <Homepage />
-        </Route>  
-        <Route path = "alvinrumbaoa.github.io/about"component = { About }/>  
-        <Route path = "alvinrumbaoa.github.io/projects" component = { Projects }/>  
-        <Route path = "alvinrumbaoa.github.io/404" component = { NotFound }/> </Switch> 
+            <Route path = "/alvinrumbaoa.github.io/image">
+                <ResumeViewer />
+            </Route>  
+            <Route path = "/alvinrumbaoa.github.io">
+              <Homepage />
+            </Route>  
+            <Route path = "alvinrumbaoa.github.io/about" component = { About }/>  
+            <Route path = "alvinrumbaoa.github.io/projects" component = { Projects }/>  
+            <Route path = "alvinrumbaoa.github.io/404" component = { NotFound }/> 
+        </Switch> 
         </div>
     );
 }
